@@ -27,7 +27,7 @@ function randomMovies()
 function getMovie() {
   let searchText;
   searchText = document.getElementById('searchText').value;
-  if(searchText&&typeOfData){
+  if(searchText){
   axios.get(`https://api.themoviedb.org/3/search/movie?api_key=06952d5eda1c1b29d20609da5e9d2693&query=${searchText}`)
     .then((response) => {
       let movies = response.data.results;
