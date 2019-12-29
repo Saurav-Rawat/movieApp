@@ -1,0 +1,15 @@
+{
+  "name": "movieapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://Saurav-Rawat.github.io/movieApp",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
