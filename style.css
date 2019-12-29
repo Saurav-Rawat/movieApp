@@ -1,0 +1,20 @@
+#movies img,
+.col-md-3 #movie img {
+  height: 400px;
+  width: 100%;
+}
+#typeOfData{
+  margin: 10px;
+}
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 390px;
+  }
+
+  #movies .col-md-3 img{
+    height:240px;
+  }
+  .navbar-brand{
+    display: none;
+  }
+}
